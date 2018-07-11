@@ -1,0 +1,14 @@
+#news {
+
+}
+
+.feed {
+  align-items: center;
+  justify-content: center;
+}
+
+.article {
+  width: 30%;
+  border: 3px solid black;
+  margin: 1rem;
+}
