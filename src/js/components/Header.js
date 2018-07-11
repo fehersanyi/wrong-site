@@ -3,7 +3,7 @@ import React from 'react';
 const Header = ({ titles }) => (
   <div id="header">
   
-    {titles.map(title => (<p>{title}</p>))}
+    {titles.map(title => (<p className="titles">{title}</p>))}
   </div>
 );
 
