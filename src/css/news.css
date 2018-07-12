@@ -1,14 +1,29 @@
-#news {
-
-}
-
-.feed {
+#nT {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
+#nT h1 {
+  font-size: 2rem;
+}
+
+.feed {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feed p {
+  align-self: center;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
 .article {
-  width: 30%;
-  border: 3px solid black;
+  height: 250px;
+  border: 3px solid white;
   margin: 1rem;
+  border-radius: 4px;
 }

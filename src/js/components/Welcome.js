@@ -1,9 +1,7 @@
 import React from 'react';
 
 const Welcome = ({src}) => (
-  <div id="welcome">
-    <img src={src} className="pic" alt="welcome"/>
-  </div>
+  <div id="welcome" style={{backgroundImage: `url(${src})`}}></div>
 );
 
 export default Welcome;
