@@ -1,0 +1,23 @@
+#insta {
+  height: 500px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#insta h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.picContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.instaPic {
+  height:300px;
+  width: 300px;
+  margin: 0 auto;
+}
