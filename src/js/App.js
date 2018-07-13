@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/header.css';
 import '../css/welcome.css';
-import '../css/csillag.css';
 import '../css/news.css';
 import '../css/dates.css';
 import '../css/insta.css';
