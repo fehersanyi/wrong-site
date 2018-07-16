@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../css/header.css';
 import '../css/welcome.css';
 import '../css/news.css';
-import '../css/dates.css';
 import '../css/insta.css';
 import '../css/footer.css';
 import Header from './components/Header';
@@ -17,6 +16,7 @@ import Insta from './components/Insta';
 import insta from '../sources/insta';
 import Footer from './components/Footer';
 import links from '../sources/links';
+import Section from './components/Section';
 
 
 
@@ -24,11 +24,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header titles={ menu } />
+        {/* <Header titles={ menu } /> */}
         <Welcome src={pic} />
-        <News articles={articles} />
+        {/* <News articles={articles} /> */}
+        <Section title={ "Koncertek" } 
+        sectionSrc={ links.fb }
+        forwardSrc={ links.fb }
+        subTitle={ "tovabbi koncertek" }
+        url={ "/koncertek" }/>
         <Dates dates={dates} />
-        <Insta pictures={insta} />
+        {/* <Insta pictures={insta} /> */}
         <Footer src={links} />
       </div>
     );
