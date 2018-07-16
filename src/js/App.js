@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import '../css/header.css';
-import '../css/welcome.css';
 import '../css/news.css';
 import '../css/insta.css';
 import '../css/footer.css';
 import Header from './components/Header';
 import menu from '../sources/menu';
 import Welcome from './components/Welcome';
-import pic from '../sources/images/megjelent.jpg';
 import News from '../js/components/News';
 import articles from '../sources/articles';
 import Dates from './components/Dates';
@@ -25,7 +23,7 @@ class App extends Component {
     return (
       <div>
         {/* <Header titles={ menu } /> */}
-        <Welcome src={pic} />
+        <Welcome />
         {/* <News articles={articles} /> */}
         <Section title={ "Koncertek" } 
         sectionSrc={ links.fb }
